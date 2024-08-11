@@ -1,5 +1,9 @@
 // External imports
 const asyncHandler = require("../middleware/async");
+const Patient = require("../Models/Patient");
+const Hospital = require("../Models/Hospital");
+const Departement = require("../Models/Departement");
+const ErrorResponse = require("../utils/errorResponse");
 
 // make a crud for patients use the staff.js in the controllers folder as a template
 
@@ -8,11 +12,17 @@ const asyncHandler = require("../middleware/async");
 // @access  public
 exports.getPatients = asyncHandler(async (req, res, next) => {
   // get all patients from the hospital use the following route "/:id/departements/:departementId/staff"
-  const patients = await Patient.find({
-    hospital: req.params.id,
-  });
+ const departments = await Departement.find({
+    _id: req.params.departementId,
+ }).populate("patients");
 
-  return res.status(200).send(patients);
+ if (!departments || departments.length === 0) {
+   return next(
+     new ErrorResponse(`Patients not found with id of ${req.params.id}`, 404)
+   );
+  }
+
+  return res.status(200).send(departments[0].patients);
 });
 
 // @desc  get single patient
