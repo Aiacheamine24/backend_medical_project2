@@ -1,31 +1,51 @@
 [
-    {
-      "name": "Hôpital Saint-Antoine",
-      "description": "Un hôpital universitaire de renom offrant des soins spécialisés.",
-      "location": "Paris, France",
-      "departments": [],
-      "createdAt": "2024-08-11T00:00:00Z"
-    },
-    {
-      "name": "Clinique Mont-Royal",
-      "description": "Une clinique privée offrant des soins de qualité avec un service personnalisé.",
-      "location": "Montréal, Canada",
-      "departments": [],
-      "createdAt": "2024-08-11T00:00:00Z"
-    },
-    {
-      "name": "Hôpital Central de Madrid",
-      "description": "Un hôpital général avec une large gamme de services médicaux.",
-      "location": "Madrid, Espagne",
-      "departments": [],
-      "createdAt": "2024-08-11T00:00:00Z"
-    },
-    {
-      "name": "Centre Hospitalier de Genève",
-      "description": "Un centre hospitalier offrant des soins de haute qualité avec des spécialistes renommés.",
-      "location": "Genève, Suisse",
-      "departments": [],
-      "createdAt": "2024-08-11T00:00:00Z"
-    }
-  ]
-  
+  {
+    "_id": "66b935d2a464c92f99ce1e57",
+    "name": "Hôpital Saint-Antoine",
+    "description": "Un hôpital universitaire de renom offrant des soins spécialisés.",
+    "location": "Paris, France",
+    "departments": [
+      "66b936db8e73101855229c99",
+      "66b936db8e73101855229c9a",
+      "66b936db8e73101855229c9b",
+      "66b936db8e73101855229c9c"
+    ],
+    "createdAt": "2024-08-11T00:00:00Z"
+  },
+  {
+    "_id": "66b935d2a464c92f99ce1e58",
+    "name": "Clinique Mont-Royal",
+    "description": "Une clinique privée offrant des soins de qualité avec un service personnalisé.",
+    "location": "Montréal, Canada",
+    "departments": [
+      "66b936db8e73101855229c9d",
+      "66b936db8e73101855229ca0",
+      "66b936db8e73101855229ca1"
+    ],
+    "createdAt": "2024-08-11T00:00:00Z"
+  },
+  {
+    "_id": "66b935d2a464c92f99ce1e59",
+    "name": "Hôpital Central de Madrid",
+    "description": "Un hôpital général avec une large gamme de services médicaux.",
+    "location": "Madrid, Espagne",
+    "departments": [
+      "66b936db8e73101855229ca2",
+      "66b936db8e73101855229ca3",
+      "66b936db8e73101855229ca4"
+    ],
+    "createdAt": "2024-08-11T00:00:00Z"
+  },
+  {
+    "_id": "66b935d2a464c92f99ce1e5a",
+    "name": "Centre Hospitalier de Genève",
+    "description": "Un centre hospitalier offrant des soins de haute qualité avec des spécialistes renommés.",
+    "location": "Genève, Suisse",
+    "departments": [
+      "66b936db8e73101855229ca5",
+      "66b936db8e73101855229c9e",
+      "66b936db8e73101855229c9f"
+    ],
+    "createdAt": "2024-08-11T00:00:00Z"
+  }
+]

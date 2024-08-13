@@ -11,7 +11,7 @@ exports.getStaff = asyncHandler(async (req, res, next) => {
   // get all staff from the hospital use the following route "/:id/departements/:departementId/staff"
   const staff = await Departement.find({
     _id: req.params.departementId,
-    hospital: req.params.id,
+
   }).populate("staff");
 
 

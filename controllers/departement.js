@@ -10,7 +10,6 @@ const asyncHandler = require("../middleware/async");
 exports.getDepartements = asyncHandler(async (req, res, next) => {
   if (req.params.id) {
     const departments = await Department.find({ hospital: req.params.id });
-
     return res.status(200).json({
       success: true,
       count: departments.length,

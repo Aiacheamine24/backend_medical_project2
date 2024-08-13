@@ -14,9 +14,6 @@ dotenv.config({ path: "./config/config.env" });
 // Load Models
 
 // Read JSON Files
-const publications = JSON.parse(
-  fs.readFileSync(`${__dirname}/_data/publications.json`, "utf-8")
-);
 const hospitals = JSON.parse(
   fs.readFileSync(`${__dirname}/_data/hospitals.json`, "utf-8")
 );
@@ -33,11 +30,10 @@ const patients = JSON.parse(
 // Import Data Into Database
 const importData = async () => {
   try {
-    // await Publication.create(publications);
-    // await Hospital.create(hospitals);
+    await Hospital.create(hospitals);
     await Department.create(departements);
-    // await Staff.create(staffs);
-    // await Patient.create(patients);
+    await Staff.create(staffs);
+    await Patient.create(patients);
     await console.log("Data Imported...".green.inverse);
   } catch (error) {
     console.error(error);
@@ -48,6 +44,10 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Publication.deleteMany();
+    await Hospital.deleteMany();
+    await Department.deleteMany();
+    await Staff.deleteMany();
+    await Patient.deleteMany();
     console.log("Data Destroyed...".red.inverse);
   } catch (error) {
     console.error(error);

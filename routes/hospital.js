@@ -35,56 +35,56 @@ const {
 const Hospital = require("../Models/Hospital");
 
 const Departement = require("../Models/Departement");
-
+// @ts-ignore
 const Patient = require("../Models/Patient");
 
 const router = express.Router({ mergeParams: true });
 
 const advancedResults = require("../middleware/advancedResults");
 
-const { protect, authorize } = require("../middleware/auth");
+const {  authorize } = require("../middleware/auth");
 
 router
   .route("/")
   .get(advancedResults(Hospital, "departments"), getHospitals)
-  .post(protect, authorize("admin"), createHospital);
+  .post( authorize("admin"), createHospital);
 
 router
   .route("/:id")
   .get(getHospital)
-  .put(protect, authorize("admin"), updateHospital)
-  .delete(protect, authorize("admin"), deleteHospital);
+  .put( authorize("admin"), updateHospital)
+  .delete( authorize("admin"), deleteHospital);
 
 router
   .route("/:id/departements")
-  .get(protect, getDepartements)
-  .post(protect, authorize("admin"), createDepartment);
+  .get( getDepartements)
+  .post( authorize("admin"), createDepartment);
 
 router
   .route("/:id/departements/:departmentId")
-  .get(protect, getDepartment)
-  .put(protect, authorize("admin"), updateDepartment)
-  .delete(protect, authorize("admin"), deleteDepartment);
+  .get( getDepartment)
+  .put( authorize("admin"), updateDepartment)
+  .delete( authorize("admin"), deleteDepartment);
 
 router
   .route("/:id/departements/:departementId/staff")
-  .get(protect, getStaff)
-  .post(protect, authorize("admin"), createStaff);
+  .get( getStaff)
+  .post( authorize("admin"), createStaff);
 router
   .route("/:id/departements/:departementId/staff/:staffId")
-  .get(protect, getStaffById)
-  .put(protect, authorize("admin"), updateStaff)
-  .delete(protect, authorize("admin"), deleteStaff);
+  .get( getStaffById)
+  .put( authorize("admin"), updateStaff)
+  .delete( authorize("admin"), deleteStaff);
 
 router
   .route("/:id/departements/:departementId/patients")
-  .get(protect, getPatients)
-  .post(protect, authorize("admin"), createPatient);
+  .get( getPatients)
+  .post( authorize("admin"), createPatient);
 
 router
   .route("/:id/departements/:departementId/patients/:patientId")
-  .get(protect, getPatientById)
-  .put(protect, authorize("admin"), updatePatient)
-  .delete(protect, authorize("admin"), deletePatient);
+  .get( getPatientById)
+  .put( authorize("admin"), updatePatient)
+  .delete( authorize("admin"), deletePatient);
 
 module.exports = router;

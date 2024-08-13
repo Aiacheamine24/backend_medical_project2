@@ -1,163 +1,193 @@
 [
-    {
-      "name": "Alice Dupont",
-      "email": "alice.dupont@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "admin",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Bernard Martin",
-      "email": "bernard.martin@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "doctor",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Claire Durand",
-      "email": "claire.durand@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "nurse",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "David Leblanc",
-      "email": "david.leblanc@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "receptionist",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Eva Fontaine",
-      "email": "eva.fontaine@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "admin",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "François Rousseau",
-      "email": "francois.rousseau@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "doctor",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Giselle Bernard",
-      "email": "giselle.bernard@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "nurse",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Hugo Lemoine",
-      "email": "hugo.lemoine@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "receptionist",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Isabelle Fournier",
-      "email": "isabelle.fournier@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "admin",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Jean-Paul Gagnon",
-      "email": "jean-paul.gagnon@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "doctor",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Karine Girard",
-      "email": "karine.girard@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "nurse",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Luc Perron",
-      "email": "luc.perron@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "receptionist",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Marie Tremblay",
-      "email": "marie.tremblay@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "admin",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Nicolas Dubois",
-      "email": "nicolas.dubois@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "doctor",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Olivier Lefevre",
-      "email": "olivier.lefevre@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "nurse",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Pauline Lalonde",
-      "email": "pauline.lalonde@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "receptionist",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Quentin Bouchard",
-      "email": "quentin.bouchard@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "admin",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "René Simard",
-      "email": "rene.simard@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "doctor",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Sylvie Charbonneau",
-      "email": "sylvie.charbonneau@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "nurse",
-      "photo": "no-photo.jpg"
-     
-    },
-    {
-      "name": "Thomas Bergeron",
-      "email": "thomas.bergeron@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "role": "receptionist",
-      "photo": "no-photo.jpg"
-     
-    }
-  ]
-  
+  {
+    "_id": "66b936dc8e73101855229cb7",
+    "name": "Eva Fontaine",
+    "email": "eva.fontaine@example.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb8",
+    "name": "François Rousseau",
+    "email": "francois.rousseau@example.com",
+    "password": "aaaaaa",
+    "role": "doctor",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb6",
+    "name": "David Leblanc",
+    "email": "david.leblanc@example.com",
+    "password": "aaaaaa",
+    "role": "receptionist",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb5",
+    "name": "Claire Durand",
+    "email": "claire.durand@example.com",
+    "password": "aaaaaa",
+    "role": "nurse",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb3",
+    "name": "Alice Dupont",
+    "email": "alice.dupont@example.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cbb",
+    "name": "Isabelle Fournier",
+    "email": "isabelle.fournier@example.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb9",
+    "name": "Giselle Bernard",
+    "email": "giselle.bernard@example.com",
+    "password": "aaaaaa",
+    "role": "nurse",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cbc",
+    "name": "Jean-Paul Gagnon",
+    "email": "jean-paul.gagnon@example.com",
+    "password": "aaaaaa",
+    "role": "doctor",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cbd",
+    "name": "Karine Girard",
+    "email": "karine.girard@example.com",
+    "password": "aaaaaa",
+    "role": "nurse",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cbe",
+    "name": "Luc Perron",
+    "email": "luc.perron@example.com",
+    "password": "aaaaaa",
+    "role": "receptionist",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cbf",
+    "name": "Marie Tremblay",
+    "email": "marie.tremblay@example.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc1",
+    "name": "Olivier Lefevre",
+    "email": "olivier.lefevre@example.com",
+    "password": "aaaaaa",
+    "role": "nurse",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc0",
+    "name": "Nicolas Dubois",
+    "email": "nicolas.dubois@example.com",
+    "password": "aaaaaa",
+    "role": "doctor",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc2",
+    "name": "Pauline Lalonde",
+    "email": "pauline.lalonde@example.com",
+    "password": "aaaaaa",
+    "role": "receptionist",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc3",
+    "name": "Quentin Bouchard",
+    "email": "quentin.bouchard@example.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc4",
+    "name": "René Simard",
+    "email": "rene.simard@example.com",
+    "password": "aaaaaa",
+    "role": "doctor",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc5",
+    "name": "Sylvie Charbonneau",
+    "email": "sylvie.charbonneau@example.com",
+    "password": "aaaaaa",
+    "role": "nurse",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc6",
+    "name": "Thomas Bergeron",
+    "email": "thomas.bergeron@example.com",
+    "password": "aaaaaa",
+    "role": "receptionist",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cc7",
+    "name": "Aiache Amine",
+    "email": "aiacheamine04@gmail.com",
+    "password": "aaaaaa",
+    "role": "admin",
+    "photo": "no-photo.jpg",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cba",
+    "name": "Hugo Lemoine",
+    "email": "hugo.lemoine@example.com",
+    "password": "aaaaaa",
+    "role": "receptionist",
+    "photo": "no-photo.jpg",
+
+    "__v": 0
+  },
+  {
+    "_id": "66b936dc8e73101855229cb4",
+    "name": "Bernard Martin",
+    "email": "bernard.martin@example.com",
+    "password": "aaaaaa",
+    "role": "doctor",
+    "photo": "no-photo.jpg",
+
+    "__v": 0
+  }
+]

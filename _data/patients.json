@@ -1,163 +1,255 @@
 [
-    {
-      "name": "Alice Dupont",
-      "email": "alice.dupont@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1985-03-14",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Bob Martin",
-      "email": "bob.martin@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1990-07-22",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Carla Petit",
-      "email": "carla.petit@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1982-11-05",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "David Leclerc",
-      "email": "david.leclerc@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1978-09-18",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Eva Martin",
-      "email": "eva.martin@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1995-01-30",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Franck Deschamps",
-      "email": "franck.deschamps@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1988-06-12",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Gina Moreau",
-      "email": "gina.moreau@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1992-04-25",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Hugo Robert",
-      "email": "hugo.robert@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1984-08-10",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Isabelle Durand",
-      "email": "isabelle.durand@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1991-02-20",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Jean Dupuis",
-      "email": "jean.dupuis@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1987-05-15",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Klara Simon",
-      "email": "klara.simon@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1994-12-01",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Louis Garnier",
-      "email": "louis.garnier@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1981-10-29",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Marie Lefevre",
-      "email": "marie.lefevre@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1986-07-04",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Nicolas Bertin",
-      "email": "nicolas.bertin@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1993-11-12",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Olivia Dufresne",
-      "email": "olivia.dufresne@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1990-03-23",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Paul Roux",
-      "email": "paul.roux@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1983-09-09",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Quinn Lefevre",
-      "email": "quinn.lefevre@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1997-05-20",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Rachel Gauthier",
-      "email": "rachel.gauthier@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1989-01-15",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Samuel Côté",
-      "email": "samuel.cote@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1992-08-25",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Tina Bernard",
-      "email": "tina.bernard@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1984-04-14",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Ulysse Rey",
-      "email": "ulysse.rey@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1980-12-03",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "Véronique Marchand",
-      "email": "veronique.marchand@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1996-02-28",
-      "profilePicture": "no-photo.jpg"
-    },
-    {
-      "name": "William Faure",
-      "email": "william.faure@example.com",
-      "password": "$2y$10$4C97q91r6zFEW8Hw9/ZPFOikV9.7g.ltefsI7bRYLisHPzFNuqZb6",
-      "dateOfBirth": "1983-11-21",
-      "profilePicture": "no-photo.jpg"
-    }
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fcd",
+    "name": "Alice Dupont",
+    "email": "alice.dupont@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1985-03-14T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fcb",
+    "name": "Carla Petit",
+    "email": "carla.petit@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1982-11-05T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fdc",
+    "name": "David Leclerc",
+    "email": "david.leclerc@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1978-09-18T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fca",
+    "name": "Bob Martin",
+    "email": "bob.martin@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1990-07-22T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fdd",
+    "name": "Eva Martin",
+    "email": "eva.martin@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1995-01-30T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fde",
+    "name": "Franck Deschamps",
+    "email": "franck.deschamps@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1988-06-12T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fcc",
+    "name": "Gina Moreau",
+    "email": "gina.moreau@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1992-04-25T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fdf",
+    "name": "Hugo Robert",
+    "email": "hugo.robert@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1984-08-10T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fce",
+    "name": "Isabelle Durand",
+    "email": "isabelle.durand@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1991-02-20T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fcf",
+    "name": "Jean Dupuis",
+    "email": "jean.dupuis@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1987-05-15T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd4",
+    "name": "Klara Simon",
+    "email": "klara.simon@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1994-12-01T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd6",
+    "name": "Louis Garnier",
+    "email": "louis.garnier@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1981-10-29T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd8",
+    "name": "Nicolas Bertin",
+    "email": "nicolas.bertin@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1993-11-12T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd7",
+    "name": "Olivia Dufresne",
+    "email": "olivia.dufresne@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1990-03-23T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd9",
+    "name": "Paul Roux",
+    "email": "paul.roux@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1983-09-09T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bcbc1e3a0fc52c4fb3",
+    "name": "Quinn Lefevre",
+    "email": "quinn.lefevre@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1997-05-20T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fda",
+    "name": "Marie Lefevre",
+    "email": "marie.lefevre@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1986-07-04T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd1",
+    "name": "Rachel Gauthier",
+    "email": "rachel.gauthier@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1989-01-15T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b932bfbc1e3a0fc52c4fd0",
+    "name": "Samuel Côté",
+    "email": "samuel.cote@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1992-08-25T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b878faf73aa14040dc90a0",
+    "name": "Tina Bernard",
+    "email": "tina.bernard@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1984-04-14T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b878faf73aa14040dc909a",
+    "name": "Ulysse Rey",
+    "email": "ulysse.rey@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1980-12-03T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dd8e73101855229cf2",
+    "name": "Véronique Marchand",
+    "email": "veronique.marchand@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1996-02-28T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  },
+  {
+    "_id": "66b936dd8e73101855229cf3",
+    "name": "William Faure",
+    "email": "william.faure@example.com",
+    "password": "aaaaaa",
+    "dateOfBirth": "1983-11-21T00:00:00.000",
+    "profilePicture": "no-photo.jpg",
+    "createdAt": "2024-08-11T22:10:37.721",
+    "updatedAt": "2024-08-11T22:10:37.721",
+    "__v": 0
+  }
 ]
