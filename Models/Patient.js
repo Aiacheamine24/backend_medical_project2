@@ -70,5 +70,4 @@ PatientSchema.methods.matchPassword = async function (enteredPassword) {
 };
 
 // Check if the model already exists before defining it
-module.exports =
-  mongoose.models.Patient || mongoose.model("Patient", PatientSchema);
+module.exports = mongoose.model("Patient", PatientSchema);
