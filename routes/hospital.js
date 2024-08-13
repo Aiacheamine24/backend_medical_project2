@@ -35,7 +35,7 @@ const {
 const Hospital = require("../Models/Hospital");
 
 const Departement = require("../Models/Departement");
-// @ts-ignore
+
 const Patient = require("../Models/Patient");
 
 const router = express.Router({ mergeParams: true });
