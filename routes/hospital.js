@@ -34,10 +34,6 @@ const {
 
 const Hospital = require("../Models/Hospital");
 
-const Departement = require("../Models/Departement");
-
-const Patient = require("../Models/Patient");
-
 const router = express.Router({ mergeParams: true });
 
 const advancedResults = require("../middleware/advancedResults");
