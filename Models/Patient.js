@@ -70,15 +70,5 @@ PatientSchema.methods.matchPassword = async function (enteredPassword) {
 };
 
 // Check if the model already exists before defining it
-const Patient =
+module.exports =
   mongoose.models.Patient || mongoose.model("Patient", PatientSchema);
-
-// Ensure the unique index is created
-PatientSchema.on("index", (error) => {
-  if (error) {
-    console.error("An error occurred while creating the index:", error);
-  }
-});
-
-module.exports = Patient;
-//
