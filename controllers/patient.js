@@ -12,14 +12,14 @@ const ErrorResponse = require("../utils/errorResponse");
 // @access  public
 exports.getPatients = asyncHandler(async (req, res, next) => {
   // get all patients from the hospital use the following route "/:id/departements/:departementId/staff"
- const departments = await Departement.find({
+  const departments = await Departement.find({
     _id: req.params.departementId,
- }).populate("patients");
+  }).populate("patients");
 
- if (!departments || departments.length === 0) {
-   return next(
-     new ErrorResponse(`Patients not found with id of ${req.params.id}`, 404)
-   );
+  if (!departments || departments.length === 0) {
+    return next(
+      new ErrorResponse(`Patients not found with id of ${req.params.id}`, 404)
+    );
   }
 
   return res.status(200).send(departments[0].patients);

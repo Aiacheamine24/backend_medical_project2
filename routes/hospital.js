@@ -38,49 +38,49 @@ const router = express.Router({ mergeParams: true });
 const Patient = require("../Models/Patient");
 const advancedResults = require("../middleware/advancedResults");
 
-const {  authorize } = require("../middleware/auth");
+const { authorize } = require("../middleware/auth");
 
 router
   .route("/")
   .get(advancedResults(Hospital, "departments"), getHospitals)
-  .post( authorize("admin"), createHospital);
+  .post(authorize("admin"), createHospital);
 
 router
   .route("/:id")
   .get(getHospital)
-  .put( authorize("admin"), updateHospital)
-  .delete( authorize("admin"), deleteHospital);
+  .put(authorize("admin"), updateHospital)
+  .delete(authorize("admin"), deleteHospital);
 
 router
   .route("/:id/departements")
-  .get( getDepartements)
-  .post( authorize("admin"), createDepartment);
+  .get(getDepartements)
+  .post(authorize("admin"), createDepartment);
 
 router
   .route("/:id/departements/:departmentId")
-  .get( getDepartment)
-  .put( authorize("admin"), updateDepartment)
-  .delete( authorize("admin"), deleteDepartment);
+  .get(getDepartment)
+  .put(authorize("admin"), updateDepartment)
+  .delete(authorize("admin"), deleteDepartment);
 
 router
   .route("/:id/departements/:departementId/staff")
-  .get( getStaff)
-  .post( authorize("admin"), createStaff);
+  .get(getStaff)
+  .post(authorize("admin"), createStaff);
 router
   .route("/:id/departements/:departementId/staff/:staffId")
-  .get( getStaffById)
-  .put( authorize("admin"), updateStaff)
-  .delete( authorize("admin"), deleteStaff);
+  .get(getStaffById)
+  .put(authorize("admin"), updateStaff)
+  .delete(authorize("admin"), deleteStaff);
 
 router
   .route("/:id/departements/:departementId/patients")
-  .get( getPatients)
-  .post( authorize("admin"), createPatient);
+  .get(getPatients)
+  .post(authorize("admin"), createPatient);
 
 router
   .route("/:id/departements/:departementId/patients/:patientId")
-  .get( getPatientById)
-  .put( authorize("admin"), updatePatient)
-  .delete( authorize("admin"), deletePatient);
+  .get(getPatientById)
+  .put(authorize("admin"), updatePatient)
+  .delete(authorize("admin"), deletePatient);
 
 module.exports = router;
