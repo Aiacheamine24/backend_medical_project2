@@ -32,10 +32,10 @@ const {
   deleteStaff,
 } = require("../controllers/staff");
 
-const Hospital = require("../Models/Hospital");
+const Hospital = require("../models/Hospital");
 
 const router = express.Router({ mergeParams: true });
-const Patient = require("../Models/Patient");
+const Patient = require("../models/Patient");
 const advancedResults = require("../middleware/advancedResults");
 
 const { authorize } = require("../middleware/auth");

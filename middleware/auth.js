@@ -2,9 +2,9 @@
 const jwt = require("jsonwebtoken");
 
 // Internal imports
-const Staff = require("../Models/Staff");
+const Staff = require("../models/Staff");
 
-const Patient = require("../Models/Patient");
+const Patient = require("../models/Patient");
 
 const asyncHandler = require("./async");
 

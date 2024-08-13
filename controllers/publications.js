@@ -1,5 +1,5 @@
 // // External imports
-const Publication = require("../Models/Publication");
+const Publication = require("../models/Publication");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 const Patient = require("../models/Patient");

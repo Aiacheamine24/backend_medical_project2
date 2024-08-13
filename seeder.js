@@ -3,15 +3,15 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 const colors = require("colors");
 const dotenv = require("dotenv");
-const Publication = require("./Models/Publication");
-const Hospital = require("./Models/Hospital");
-const Department = require("./Models/Departement");
-const Staff = require("./Models/Staff");
-const Patient = require("./Models/Patient");
+const Publication = require("./models/Publication");
+const Hospital = require("./models/Hospital");
+const Department = require("./models/Departement");
+const Staff = require("./models/Staff");
+const Patient = require("./models/Patient");
 // Load ENV Variables
 dotenv.config({ path: "./config/config.env" });
 
-// Load Models
+// Load models
 
 // Read JSON Files
 const hospitals = JSON.parse(

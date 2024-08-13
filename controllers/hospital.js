@@ -1,5 +1,5 @@
 // External imports
-const Hospital = require("../Models/Hospital");
+const Hospital = require("../models/Hospital");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 

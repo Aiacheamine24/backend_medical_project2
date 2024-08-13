@@ -12,7 +12,7 @@ const {
   deletePublication,
 } = require("../controllers/publications");
 const advancedResults = require("../middleware/advancedResults");
-const Publication = require("../Models/Publication");
+const Publication = require("../models/Publication");
 
 const router = express.Router();
 

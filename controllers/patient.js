@@ -1,8 +1,8 @@
 // External imports
 const asyncHandler = require("../middleware/async");
-const Patient = require("../Models/Patient");
-const Hospital = require("../Models/Hospital");
-const Departement = require("../Models/Departement");
+const Patient = require("../models/Patient");
+const Hospital = require("../models/Hospital");
+const Departement = require("../models/Departement");
 const ErrorResponse = require("../utils/errorResponse");
 
 // make a crud for patients use the staff.js in the controllers folder as a template
