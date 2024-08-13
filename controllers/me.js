@@ -1,6 +1,6 @@
 // Internal Imports
-const Patient = require("../models/Patient");
-const Staff = require("../models/Staff");
+const Patient = require("../Models/Patient");
+const Staff = require("../Models/Staff");
 const asyncHandler = require("../middleware/async");
 
 // @desc  read me

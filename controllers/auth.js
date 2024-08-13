@@ -1,8 +1,8 @@
 // External imports
 const jwt = require("jsonwebtoken");
 // Internal Imports
-const Staff = require("../models/Staff");
-const Patient = require("../models/Patient");
+const Staff = require("../Models/Staff");
+const Patient = require("../Models/Patient");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 

@@ -1,5 +1,5 @@
 // External imports
-const Department = require("../models/Departement");
+const Department = require("../Models/Departement");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
 

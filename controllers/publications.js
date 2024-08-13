@@ -1,8 +1,8 @@
 // // External imports
-const Publication = require("../models/Publication");
+const Publication = require("../Models/Publication");
 const ErrorResponse = require("../utils/errorResponse");
 const asyncHandler = require("../middleware/async");
-const Patient = require("../models/Patient");
+const Patient = require("../Models/Patient");
 
 // // @desc  get all publications
 // // @route   get /api/v1/publications
